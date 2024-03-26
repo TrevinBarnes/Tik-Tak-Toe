@@ -22,7 +22,20 @@ h1 {
 }
 
 button{
-    background-color: aquamarine;
+    background-color: tan;
+}
+button:hover{
+    background-color: gray;
+}
+button:disabled{
+    opacity: 0.6;
+}
+
+#restart{
+    background-color: white;
+}
+#restart:hover{
+    background-color: lightblue;
 }
 /*
 .container{

@@ -2,10 +2,11 @@ console.log("hello");
 
 turns = 0;
 
-const btn = document.querySelector('grid-cell');
+const btn = document.querySelector('.grid-cell');
 
 btn.addEventListener('click',()=>{
-    btn.computedStyleMap.backgroundColor = '#0b061f';
+    btn.style.backgroundColor = '#ffac09';
+    btn.style.box='#ffac09'
 });
 
 
